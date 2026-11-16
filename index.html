@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anbuselvan Anbalagan – Production Supervisor</title>
+<meta name="description" content="Production Supervisor in food, FMCG and packaging manufacturing, based in Dubai.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0F1720;--panel:#17222D;--line:#2A3947;--txt:#EAEFEA;--mute:#9AA8B5;--tape:#F4B400;--cocoa:#7A4B33;--led:#3DDC84}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font:17px/1.6 "IBM Plex Sans",system-ui,sans-serif;color:var(--txt);background:var(--ink);overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(420px circle at var(--mx,70%) var(--my,20%),rgba(244,180,0,.09),transparent 70%)}
+h1,h2,h3{font-family:"Barlow Condensed","Arial Narrow",sans-serif;line-height:1.05}
+a{color:inherit}:focus-visible{outline:3px solid var(--tape);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px;position:relative}
+section{padding:76px 0 8px}
+h2{font-size:clamp(36px,7vw,56px);margin-bottom:26px;display:flex;align-items:center;gap:14px;position:relative}
+.hud{position:fixed;top:0;left:0;right:0;z-index:9;background:rgba(15,23,32,.92);backdrop-filter:blur(8px)}
+.hud .wrap{display:flex;align-items:center;gap:14px;height:46px}
+.logo{background:var(--tape);color:#111;font:700 20px "Barlow Condensed",sans-serif;padding:1px 9px;border-radius:4px;text-decoration:none}
+#stg{font-size:14px;color:var(--mute)}#stg b{color:var(--tape);font-weight:600}
+.pg{height:3px;background:var(--line);position:relative}
+#pgf{height:100%;width:0;background:var(--tape)}
+.pm{position:absolute;top:-5px;left:0;width:24px;height:11px;border-radius:3px;transform:translateX(-50%);background:repeating-linear-gradient(90deg,transparent 0 5px,rgba(0,0,0,.35) 5px 6px),var(--cocoa)}
+.hero{min-height:100svh;padding-top:90px;display:grid;align-content:center;gap:26px}
+.hero .wrap{display:grid;gap:26px;align-items:center}
+h1{font-size:clamp(56px,16vw,150px);text-transform:uppercase;font-weight:700;letter-spacing:1px}
+h1 span{display:block;overflow:hidden}h1 i{display:block;font-style:normal;animation:rise .9s cubic-bezier(.2,.8,.2,1) both}
+h1 span:nth-child(2) i{animation-delay:.15s;color:transparent;-webkit-text-stroke:2px var(--tape)}
+@keyframes rise{from{transform:translateY(105%)}}
+.role{font-size:clamp(19px,3.4vw,26px);color:var(--mute);min-height:1.6em}.role #ty{color:var(--txt);font-weight:500}
+.cur{display:inline-block;width:2px;height:1em;background:var(--tape);margin-left:3px;vertical-align:-2px;animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.sum{color:var(--mute);max-width:54ch;margin-top:10px}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.btn{display:inline-block;padding:12px 20px;border-radius:6px;font-weight:600;text-decoration:none;border:2px solid var(--txt);transition:transform .2s}
+.btn:hover{transform:translateY(-3px) rotate(-1deg)}.btn.main{background:var(--tape);border-color:var(--tape);color:#111}
+.ring{width:170px;padding:9px;border-radius:50%;background:repeating-linear-gradient(45deg,var(--tape) 0 12px,#111 12px 24px);animation:spin 24s linear infinite}
+.pt{aspect-ratio:1;border-radius:50%;overflow:hidden;background:var(--panel);display:grid;place-items:center;font:700 56px "Barlow Condensed",sans-serif;animation:spin 24s linear infinite reverse}
+.pt>*{grid-area:1/1}.pt img{width:100%;height:100%;object-fit:cover}
+.tape{background:var(--tape);color:#111;transform:rotate(-2deg);margin:34px -20px 0;overflow:hidden;white-space:nowrap;font:700 22px/1 "Barlow Condensed",sans-serif;letter-spacing:1.5px;padding:10px 0;text-transform:uppercase}
+.mq{display:inline-flex;animation:mq 30s linear infinite}@keyframes mq{to{transform:translateX(-50%)}}
+.ab{max-width:62ch;margin-bottom:12px}.mu{color:var(--mute)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:22px;margin:28px 0}
+.stat{border-left:5px solid var(--tape);padding-left:14px}.stat b{display:block;font:700 clamp(46px,9vw,64px)/1 "Barlow Condensed",sans-serif}
+.stat span{color:var(--mute);font-size:15px}
+.chips{display:flex;flex-wrap:wrap;gap:7px}.chips span{background:var(--panel);border:1.5px solid var(--line);border-radius:4px;padding:3px 10px;font-size:14px}
+.sk span::before{content:"✓ ";color:var(--led);font-weight:700}
+.jb{background:var(--panel);border-left:5px solid var(--tape);border-radius:6px;padding:18px 20px;margin-bottom:18px}
+.when{color:var(--mute);font-size:14px}.jb h3{font-size:30px;margin:2px 0}.co{font-weight:600;color:var(--tape)}
+.jb ul{margin:10px 0 0;padding-left:20px;max-width:66ch}.jb li{margin-bottom:5px}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:26px}
+.sg{border-top:4px solid var(--line);padding-top:12px}.sg h3{font-size:26px;margin-bottom:10px}
+.qc{position:relative}.stamp{position:absolute;right:0;top:0;border:4px solid var(--led);color:var(--led);font:700 24px "Barlow Condensed",sans-serif;letter-spacing:2px;padding:4px 12px;border-radius:6px;transform:rotate(-12deg);text-transform:uppercase}
+html.js .stamp{opacity:0;transform:scale(3) rotate(-12deg)}html.js .qc.in .stamp{animation:stamp .5s .5s cubic-bezier(.3,1.6,.5,1) forwards}
+@keyframes stamp{to{opacity:1;transform:scale(1) rotate(-12deg)}}
+.cred{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin-top:40px}
+.cd{background:var(--panel);border:1.5px solid var(--line);border-radius:8px;padding:16px 18px}.cd h3{font-size:26px;margin-bottom:6px}
+.cd small{color:var(--mute)}.cd a{color:var(--tape)}.fine{margin-top:14px;font-size:14px;color:var(--mute);max-width:64ch}
+.box{background:var(--panel);border:1.5px solid var(--line);border-radius:8px;margin-bottom:14px;position:relative;max-width:780px}
+.box summary{list-style:none;cursor:pointer;padding:22px 20px 16px;display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px}
+.box summary::-webkit-details-marker{display:none}
+.box summary::before{content:"";position:absolute;top:-7px;left:50%;width:70px;height:16px;background:rgba(244,180,0,.9);transform:translateX(-50%);transition:transform .4s}
+.box[open] summary::before{transform:translateX(30px) rotate(-38deg);opacity:.7}
+.box h3{font-size:27px;flex:1 1 220px}.box p{padding:0 20px 18px;color:var(--mute)}
+.st{font-size:13px;font-weight:600;padding:2px 10px;border-radius:4px;background:var(--tape);color:#111}
+.st.run{background:var(--steel,#3b4b5b);color:#fff}.st.plan{background:none;border:1.5px dashed var(--mute);color:var(--mute)}
+.ach{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;list-style:none;padding:0}
+.ach li{border:1.5px solid var(--line);border-radius:8px;padding:14px 16px;border-top:4px solid var(--tape)}
+.send{margin-top:70px;padding:60px 0 0;background:var(--panel);overflow:hidden;position:relative}
+.send p{color:var(--mute);max-width:46ch}
+.mail{display:inline-block;font:700 clamp(26px,6vw,46px) "Barlow Condensed",sans-serif;margin:16px 0 6px;word-break:break-all;border-bottom:3px solid var(--tape);text-decoration:none}
+.road{height:74px;margin-top:34px;position:relative;border-top:14px solid #0b1118;background:#0b1118}
+.road::after{content:"";position:absolute;left:0;right:0;top:-8px;height:3px;background:repeating-linear-gradient(90deg,var(--tape) 0 26px,transparent 26px 52px);animation:rd .5s linear infinite}
+@keyframes rd{to{background-position:-52px 0}}
+.truck{position:absolute;bottom:34px;left:0;width:116px;animation:drive 9s linear infinite}
+@keyframes drive{from{transform:translateX(-130px)}to{transform:translateX(105vw)}}
+.wh{transform-box:fill-box;transform-origin:center;animation:spin .6s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+footer{padding:14px 0 18px;font-size:14px;color:var(--mute);background:#0b1118}
+.ico{width:52px;height:52px;flex:none;overflow:visible;fill:none;stroke:currentColor;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+.ico .t{fill:var(--tape)}
+.g{transform-box:fill-box;transform-origin:50% 100%;animation:grow 2.8s ease-in-out infinite}.g2{animation-delay:.25s}.g3{animation-delay:.5s}
+.pf{fill:currentColor;stroke:none;opacity:0;transform-box:fill-box;transform-origin:center;animation:puff 2.8s ease-out infinite}.pf2{animation-delay:1.4s}
+.bob{animation:bob 2.2s ease-in-out infinite}.bob2{animation:bob 2.2s .5s ease-in-out infinite}.bob3{animation:bob 2.2s 1s ease-in-out infinite}
+.sp{animation:spin 7s linear infinite}.sp2{animation:spin 7s linear infinite reverse}
+.glow{animation:glow 2s ease-in-out infinite}
+.tw{transform-box:fill-box;transform-origin:center;animation:tw 2s ease-in-out infinite}.tw2{animation-delay:1s}
+.dr{stroke-dasharray:22;animation:dr 3s ease-in-out infinite}
+.ltr{animation:post 2.4s ease-in-out infinite}
+@keyframes grow{0%{transform:scaleY(.2)}45%,80%{transform:scaleY(1)}100%{transform:scaleY(.2)}}
+@keyframes puff{0%{transform:translateY(0) scale(.5);opacity:0}30%{opacity:.5}100%{transform:translateY(-16px) scale(1.3);opacity:0}}
+@keyframes bob{50%{transform:translateY(-3px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes glow{0%,100%{opacity:.25}50%{opacity:1}}
+@keyframes tw{0%,100%{transform:scale(.4);opacity:.3}50%{transform:scale(1);opacity:1}}
+@keyframes dr{0%{stroke-dashoffset:22}40%,100%{stroke-dashoffset:0}}
+@keyframes post{50%{transform:translateY(-6px)}}
+html.js .rv{opacity:0;transform:translateY(16px);transition:opacity .6s,transform .6s}html.js .rv.in{opacity:1;transform:none}
+@media(min-width:780px){.hero .wrap{grid-template-columns:1fr auto}.ring{width:240px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}html.js .rv{opacity:1;transform:none}html.js .stamp{opacity:1;transform:rotate(-12deg)}}
+</style></head><body>
+<div class="hud"><div class="wrap"><a class="logo" href="#top" aria-label="Back to top">AA</a><span id="stg" aria-live="off">Stage 1 of 6: <b>Raw material</b></span></div><div class="pg"><div id="pgf"></div><div class="pm" id="pm"></div></div></div>
+<main>
+<header class="hero" id="top" data-st="0"><div class="wrap">
+<div><h1><span><i>Anbuselvan</i></span><span><i>Anbalagan</i></span></h1>
+<p class="role"><span id="ty">Production Supervisor</span><i class="cur"></i></p>
+<p class="sum">8+ years across food, FMCG and pharmaceutical plants. I plan the shift, run the line and fix what stops it, with GMP, food safety and HSE built into every hour.</p>
+<div class="btns"><a class="btn main" href="#contact">Contact me</a><a class="btn" href="Anbuselvan_Anbalagan_Production_Supervisor_CV.pdf" download>Download CV</a></div></div>
+<div class="ring"><div class="pt"><span>AA</span><img src="portrait.jpg" alt="Portrait of Anbuselvan Anbalagan" onerror="this.remove()"></div></div>
+</div><div class="tape" aria-hidden="true"><div class="mq" id="mq"></div></div></header>
+
+<section id="about" data-st="1"><div class="wrap"><h2 class="rv"><svg class="ico" viewBox="0 0 48 48" aria-hidden="true"><path d="M5 43h38"/><rect class="g t" x="9" y="27" width="8" height="16" rx="1.5"/><rect class="g g2 t" x="20" y="17" width="8" height="26" rx="1.5"/><rect class="g g3 t" x="31" y="6" width="8" height="37" rx="1.5"/></svg>About me</h2>
+<p class="ab rv">A manufacturing professional with hands-on experience in production supervision, shift execution, team coordination, process troubleshooting and food safety practices. Currently in chocolate manufacturing in Dubai, with earlier experience in biscuit production and pharmaceutical packaging equipment.</p>
+<p class="ab mu rv">Career objective: contribute to a progressive food or FMCG manufacturing operation in a production leadership role, applying practical process knowledge, team coordination and continuous-improvement thinking.</p>
+<div class="stats rv"><div class="stat"><b><u data-n="8" style="text-decoration:none">0</u>+</b><span>years in food, FMCG and pharmaceutical manufacturing</span></div><div class="stat"><b><u data-n="6" style="text-decoration:none">0</u></b><span>years in biscuit production and packaging</span></div><div class="stat"><b><u data-n="3" style="text-decoration:none">0</u></b><span>chocolate varieties taken from trial to commercial production</span></div><div class="stat"><b>31–50</b><span>employees supervised per shift</span></div></div>
+<h2 class="rv" style="font-size:34px"><svg class="ico" viewBox="0 0 48 48" aria-hidden="true"><g class="bob2"><circle cx="9" cy="21" r="4"/><path d="M2 38c0-5 3-8 7-8"/></g><g class="bob3"><circle cx="39" cy="21" r="4"/><path d="M46 38c0-5-3-8-7-8"/></g><g class="bob"><circle class="t" cx="24" cy="15" r="6"/><path d="M13 42c0-8 4-13 11-13s11 5 11 13z"/></g></svg>Leadership</h2>
+<div class="chips "><span>Shift execution</span><span>People management</span><span>Performance tracking</span><span>Cross-functional coordination</span></div>
+</div></section>
+
+<section id="experience" data-st="2"><div class="wrap"><h2 class="rv"><svg class="ico" viewBox="0 0 48 48" aria-hidden="true"><path d="M6 43V23l10 6v-6l10 6v-6l10 6V11h6v32z"/><path class="t" d="M10 35h4v4h-4zM20 35h4v4h-4zM30 35h4v4h-4z"/><circle class="pf" cx="39" cy="7" r="3"/><circle class="pf pf2" cx="39" cy="7" r="3"/></svg>Experience</h2><div class="jb rv"><div class="when">Aug 2025 – Present</div><h3>Production Supervisor</h3><div class="co">Katrina Factory FZE, Dubai, UAE (chocolate / FMCG)</div><ul><li>Coordinate daily production planning, shift targets and execution, allocating manpower across about 31–50 employees.</li><li>Monitor hourly output, line performance and downtime against targets.</li><li>Coordinate breakdown response with the technical team; troubleshoot first-level faults on kitchen, Conbar and Krokant lines.</li><li>Run line setup, start-up, changeovers, cleaning and pre-production checks under SOP, GMP, food safety and HSE rules.</li><li>Monitor scrap, rework and material usage; keep handover, reports and records accurate.</li><li>Coordinate with QA, Maintenance and Warehouse teams.</li></ul></div><div class="jb rv"><div class="when">Jan 2025 – May 2025</div><h3>Mechanical Technician</h3><div class="co">Ansell Sterile Solutions Pvt Ltd, Erode, India (pharmaceutical)</div><ul><li>Restored Bi-Fold packaging, flexi printing and thermoforming machines to reliable operation in a GMP environment.</li><li>Supported commissioning and qualification (IQ, OQ, PQ).</li><li>Diagnosed mechanical and operational faults and supported corrective actions.</li></ul></div><div class="jb rv"><div class="when">Aug 2018 – Jun 2024</div><h3>Production, Biscuit Manufacturing</h3><div class="co">ITC ICML Ltd, Viralimalai, Tamil Nadu, India</div><ul><li>About 6 years across mixing, maida handling, raw material handling, process troubleshooting and packing.</li><li>Supported packaging operations and machine troubleshooting while meeting quality and food safety requirements.</li><li>Worked with teams to reach output targets and improve line performance.</li></ul></div></div></section>
+
+<section id="skills" data-st="3"><div class="wrap"><div class="qc rv" id="qc"><h2><svg class="ico" viewBox="0 0 48 48" aria-hidden="true"><g class="sp" style="transform-origin:17px 28px"><circle cx="17" cy="28" r="11.5" stroke-width="5" stroke-dasharray="4.5 4.2" stroke-linecap="butt"/><circle class="t" cx="17" cy="28" r="9"/><circle cx="17" cy="28" r="3"/></g><g class="sp2" style="transform-origin:34px 14px"><circle cx="34" cy="14" r="7.5" stroke-width="4.5" stroke-dasharray="3.7 3.4" stroke-linecap="butt"/><circle class="t" cx="34" cy="14" r="5.5"/><circle cx="34" cy="14" r="2"/></g></svg>Skills</h2><div class="stamp">QC passed</div></div>
+<div class="skills"><div class="sg rv"><h3>Production management</h3><div class="chips sk"><span>Production planning</span><span>Scheduling</span><span>Daily supervision</span><span>Manpower planning</span><span>Work allocation</span><span>Shift handover</span><span>Output monitoring</span><span>Target achievement</span></div></div><div class="sg rv"><h3>Quality and compliance</h3><div class="chips sk"><span>GMP / cGMP</span><span>Food safety</span><span>Hygiene</span><span>SOP compliance</span><span>Line clearance</span><span>Batch documentation</span><span>Material reconciliation</span><span>Deviation reporting</span><span>CAPA</span><span>HACCP</span><span>Scrap and rework monitoring</span></div></div><div class="sg rv"><h3>Efficiency and improvement</h3><div class="chips sk"><span>OEE</span><span>Line efficiency</span><span>Downtime reduction</span><span>Root cause analysis</span><span>5 Why</span><span>Continuous improvement</span><span>Waste reduction</span></div></div><div class="sg rv"><h3>Technical and equipment</h3><div class="chips sk"><span>Packaging machine troubleshooting</span><span>Line setup and start-up</span><span>Changeover</span><span>Preventive maintenance coordination</span><span>Commissioning support</span><span>IQ / OQ / PQ</span><span>Bi-Fold</span><span>Flexi printing</span><span>Thermoforming</span><span>Conbar and Krokant troubleshooting</span><span>Chocolate manufacturing</span><span>Biscuit manufacturing</span></div></div><div class="sg rv"><h3>Leadership and safety</h3><div class="chips sk"><span>Team leadership</span><span>Team coordination</span><span>Cross-functional communication</span><span>HSE</span><span>Workplace safety</span><span>Problem solving</span></div></div></div>
+<div class="cred rv">
+<div class="cd"><h3>GMP</h3><p>Good Manufacturing Practices<br><small>Alison, completed 18 October 2026<br>Certificate ID 7400-56004138</small><br><a href="https://alison.com/verify/b32a7b79e7">Verify certificate</a></p></div>
+<div class="cd"><h3>HACCP</h3><p>Hazard Analysis Critical Control Point<br><small>Alison, completed 9 October 2026<br>Certificate ID 5690-56004138</small><br><a href="https://alison.com/verify/fb64f48679">Verify certificate</a></p></div>
+<div class="cd"><h3>Education</h3><p>ITI Fitter, 86.4%<br><small>Government Industrial Training Institute, Andimadam, India. 2014 – 2016</small></p></div>
+<div class="cd"><h3>Languages</h3><p>English <small>working proficiency</small><br>Tamil <small>native</small></p></div></div>
+<p class="fine rv">Alison certificates are course-completion certificates, not professional licences or accredited diplomas.</p>
+</div></section>
+
+<section id="projects" data-st="4"><div class="wrap"><h2 class="rv"><svg class="ico" viewBox="0 0 48 48" aria-hidden="true"><path class="t glow" stroke="none" d="M24 6a12 12 0 0 0-6 22.4V33h12v-4.6A12 12 0 0 0 24 6z"/><path d="M24 6a12 12 0 0 0-6 22.4V33h12v-4.6A12 12 0 0 0 24 6zM19 38h10M21 43h6"/><path class="glow" d="M6 10 3 7M42 10l3-3M24 2V-1"/></svg>Projects, tap a box to open</h2><details class="box rv"><summary><span class="st ">Completed</span><h3>Production capacity improvement</h3></summary><p>Process improvement and line optimization raised shift capacity from 24 MT to 28 MT, a gain of 4 MT per shift (about 16.7%).</p></details><details class="box rv"><summary><span class="st ">Successful trial</span><h3>CIP cleaning time reduction</h3></summary><p>Trial cleaning time dropped from 4 hours to 2 hours (50%). Routine use depends on approved cleaning and food-safety procedures.</p></details><details class="box rv"><summary><span class="st ">Production contribution</span><h3>Chocolate product development</h3></summary><p>Supported three chocolate varieties from trial to commercial production: process parameters, machine settings, manpower coordination, troubleshooting and product quality.</p></details><details class="box rv"><summary><span class="st run">Ongoing</span><h3>Conbar and Krokant line troubleshooting</h3></summary><p>Machine operation, process fault identification, corrective action and coordination with the technical team.</p></details><details class="box rv"><summary><span class="st run">Ongoing</span><h3>Scrap and waste monitoring</h3></summary><p>Tracks primary and secondary laminate scrap, rework, metal detector rejects, output and material reconciliation.</p></details><details class="box rv"><summary><span class="st plan">Proposed concept, not implemented</span><h3>Kitchen process automation</h3></summary><p>After two milk-mix batches, caramel preparation starts automatically. After six caramel batches, the product moves to the drain line and load-cell feedback drains 30 kg, then the cycle repeats. Needs engineering review, PLC/HMI development, interlocks, calibration, trials and food-safety approval.</p></details>
+<h2 class="rv" style="margin-top:50px"><svg class="ico" viewBox="0 0 48 48" aria-hidden="true"><path class="t" d="M15 8h18v12a9 9 0 0 1-18 0z"/><path d="M15 12H9c0 6 3 9 7 9M33 12h6c0 6-3 9-7 9M24 29v8M19 37h10M16 43h16"/><path class="tw" d="M41 2v8M37 6h8"/><path class="tw tw2" d="M7 4v6M4 7h6"/></svg>Achievements</h2>
+<ul class="ach rv"><li>Raised shift capacity from 24 MT to 28 MT.</li><li>Cut CIP cleaning time from 4 hours to 2 hours in a successful trial.</li><li>Supported three chocolate varieties from trials to commercial production.</li><li>Received appreciation from management for contribution and performance in manufacturing operations.</li></ul>
+</div></section>
+</main>
+
+<section class="send" id="contact" data-st="5"><div class="wrap"><h2><svg class="ico" viewBox="0 0 48 48" aria-hidden="true"><rect class="ltr t" x="14" y="6" width="20" height="20" rx="2"/><rect x="6" y="18" width="36" height="24" rx="3" fill="var(--ink)"/><path d="M6 21l18 13 18-13"/></svg>Dispatch: let’s talk</h2>
+<p>Open to Production Supervisor roles. Based in Dubai, UAE, with a 30-day notice period.</p>
+<a class="mail" href="mailto:anbudxb2025@gmail.com">anbudxb2025@gmail.com</a>
+<div class="btns"><a class="btn main" href="https://wa.me/971562521842">Message on WhatsApp</a><a class="btn" href="tel:+971562521842">Call +971 56 252 1842</a><a class="btn" href="https://www.linkedin.com/in/anbuselvan-anbalagan-50b444226/">LinkedIn</a></div></div>
+<div class="road" aria-hidden="true"><svg class="truck" viewBox="0 0 120 60"><rect x="2" y="8" width="70" height="36" rx="3" fill="#F4B400"/><path d="M74 20h20l14 14v10H74z" fill="#EAEFEA"/><path d="M80 24h12l8 9H80z" fill="#0F1720"/><g fill="#111" stroke="#EAEFEA" stroke-width="2"><circle cx="24" cy="48" r="9"/><circle cx="58" cy="48" r="9"/><circle cx="96" cy="48" r="9"/></g><g stroke="#EAEFEA" stroke-width="2"><path class="wh" d="M24 42v12M18 48h12"/><path class="wh" d="M58 42v12M52 48h12"/><path class="wh" d="M96 42v12M90 48h12"/></g></svg></div>
+<footer><div class="wrap">© 2026 Anbuselvan Anbalagan</div></footer></section>
+
+<script>
+document.documentElement.classList.add('js');
+var R=matchMedia('(prefers-reduced-motion: reduce)').matches,$=function(i){return document.getElementById(i)};
+var T='Production Supervisor ✦ GMP ✦ HACCP ✦ OEE ✦ Food safety ✦ HSE ✦ ';
+$('mq').innerHTML='<span>'+T.repeat(4)+'</span><span>'+T.repeat(4)+'</span>';
+/* typing roles */
+var roles=['Production Supervisor','Line efficiency and OEE','Chocolate and biscuit manufacturing','GMP, HACCP and HSE'],ri=0,ci=0,del=false,ty=$('ty');
+function type(){var w=roles[ri];ty.textContent=w.slice(0,ci);
+ if(!del&&ci==w.length){del=true;return setTimeout(type,1500)}
+ if(del&&ci==0){del=false;ri=(ri+1)%roles.length}
+ ci+=del?-1:1;setTimeout(type,del?30:60)}
+if(!R){ci=0;type()}
+/* stage HUD and progress */
+var names=['Raw material','Mixing','Processing','Quality check','Packing','Dispatch'],secs=[].slice.call(document.querySelectorAll('[data-st]')),pgf=$('pgf'),pm=$('pm'),stg=$('stg'),last=-1;
+function upd(){var h=document.documentElement,p=scrollY/Math.max(1,h.scrollHeight-innerHeight)*100;pgf.style.width=p+'%';pm.style.left=p+'%';
+ var s=0;secs.forEach(function(e){if(e.getBoundingClientRect().top<innerHeight*.4)s=+e.dataset.st});
+ if(s!=last){last=s;stg.innerHTML='Stage '+(s+1)+' of 6: <b>'+names[s]+'</b>'}}
+addEventListener('scroll',upd,{passive:true});addEventListener('resize',upd);upd();
+/* pointer glow */
+addEventListener('pointermove',function(e){document.body.style.setProperty('--mx',e.clientX+'px');document.body.style.setProperty('--my',e.clientY+'px')});
+/* counters */
+function count(u){var n=+u.dataset.n;if(R){u.textContent=n;return}var s=performance.now();(function f(t){var p=Math.min((t-s)/1400,1);u.textContent=Math.round(n*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(f)})(s)}
+/* reveal */
+var els=document.querySelectorAll('.rv');
+if('IntersectionObserver' in window&&!R){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');e.target.querySelectorAll('[data-n]').forEach(count);io.unobserve(e.target)}})},{threshold:.15});els.forEach(function(e){io.observe(e)})}
+else{els.forEach(function(e){e.classList.add('in');e.querySelectorAll('[data-n]').forEach(count)})}
+</script></body></html>
